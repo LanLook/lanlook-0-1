@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/** 
+ * Default Ultimate CSS Drop-Down Menu Theme
+ *
+ * @file		default.ultimate.css
+ * @name		Default
+ * @version		0.1
+ * @type		transitional
+ * @browsers	Windows: IE5+, Opera7+, Firefox1+
+ *				Mac OS: Safari2+, Firefox2+
+ *
+ * @link		http://www.armos.am/
+ * @copyright	2012 armos Web Design and Development
+ *
+ */
+ul.dropdown {
+font-family:Arial, Helvetica, sans-serif;
+font-weight:400;
+}
+
+ul.dropdown li {
+border:none;
+background-color:#f6f6f6;
+color:#696969;
+font-size:1em;
+padding:0;
+}
+
+ul.dropdown a,ul.dropdown span {
+display:block;
+padding:7px 10px;
+}
+
+ul.dropdown a:link,ul.dropdown a:visited {
+color:#696969;
+text-decoration:none;
+}
+
+ul.dropdown a:hover {
+color:#333;
+}
+
+ul.dropdown a:active {
+color:#999;
+}
+
+ul.dropdown ul {
+width:165px;
+margin-top:0;
+}
+
+ul.dropdown ul li {
+font-size:0.9em;
+}
+
+ul.dropdown *.dir {
+padding-right:15px;
+background-image:url(images/nav-arrow-down.png);
+background-position:99% 50%;
+background-repeat:no-repeat;
+}
+
+ul.dropdown-horizontal ul *.dir {
+padding-right:15px;
+background-image:url(images/nav-arrow-right.png);
+background-position:99% 50%;
+background-repeat:no-repeat;
+}
+
+ul.dropdown-upward {
+	margin-top: 200px !important;
+}
+
+ul.dropdown-upward *.dir {
+background-image:url(images/nav-arrow-top.png);
+}
+
+ul.dropdown-vertical *.dir,ul.dropdown-upward ul *.dir {
+background-image:url(images/nav-arrow-right.png);
+}
+
+ul.dropdown-vertical-rtl *.dir,ul.dropdown-vertical-rtl ul *.dir {
+background-image:url(images/nav-arrow-left.png);
+background-position:2px 50%;
+}
+
+ul.dropdown-horizontal li a,ul.dropdown-horizontal *.dir,ul.dropdown-upward li a,ul.dropdown-upward *.dir {
+border-color:#f6f6f6 #d9d9d9;
+border-style:solid;
+border-width:1px 1px 1px 0;
+padding:7px 30px;
+}
+
+ul.dropdown-horizontal ul li a,ul.dropdown-horizontal ul *.dir,ul.dropdown-upward ul li a,ul.dropdown-upward ul *.dir,ul.dropdown-vertical li a,ul.dropdown-vertical *.dir {
+border-color:#fefefe #d9d9d9 #d9d9d9 #eee;
+border-style:solid;
+border-width:1px 1px 1px 0;
+padding:7px 15px 7px 10px;
+}
+
+ul.dropdown-vertical-rtl li a,ul.dropdown-vertical-rtl *.dir {
+border-color:#fff #efefef #d9d9d9 #d9d9d9;
+border-style:solid;
+border-width:1px;
+padding:7px 10px 7px 15px;
+}
+
+ul.dropdown a:active,ul.dropdown li a.dir:active,ul.dropdown ul li a.dir:active {
+background-color:#e1e1e1;
+color:#333;
+}
+
+ul.dropdown li.hover,ul.dropdown li:hover {
+background:url(images/grad.png) 0 100% repeat-x;
+color:#000;
+}
+
+ul.dropdown li:hover > *.dir,ul.dropdown a:hover > *.dir,ul.dropdown-upward li:hover > *.dir,ul.dropdown-upward a:hover > *.dir,ul.dropdown li.hover *.open,ul.dropdown-upward li.hover *.open {
+background-color:#efefef;
+color:#000;
+border-color:#efefef #d9d9d9 #eee;
+border-style:solid;
+border-width:1px 1px 1px 0;
+}
+
+ul.dropdown ul li:hover > *.dir,ul.dropdown-vertical li:hover > *.dir,ul.dropdown-upward ul li:hover > *.dir,ul.dropdown ul li.hover *.open,ul.dropdown-vertical li.hover *.open,ul.dropdown-upward ul li.hover *.open {
+padding-left:15px;
+background-color:#efefef;
+color:#000;
+border-color:#fff #d9d9d9 #d9d9d9;
+border-style:solid;
+border-width:1px 1px 1px 0;
+}
+
+ul.dropdown-vertical-rtl li:hover > *.dir,ul.dropdown-vertical-rtl ul li:hover > *.dir,ul.dropdown-vertical-rtl li.hover *.open,ul.dropdown-vertical-rtl ul li.hover *.open {
+padding-right:15px;
+background-color:#efefef;
+color:#000;
+border-color:#fff none #d9d9d9 #d9d9d9;
+border-style:solid;
+border-width:1px 0 1px 1px;
+}
