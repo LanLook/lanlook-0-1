@@ -10,7 +10,7 @@ Web resource writen by Yii Framework which allows:
 - creating requrring auto payments;
 - changing status of posts; 
 
-There is admin part for cliens and admin too.
+There is content managment interface for cliens and admin too.
 
 #####Next version is coming soon.
 
